@@ -12,7 +12,7 @@
   apt: "name=dnsutils state=present"
 
 - name: Add Subdomain | Get Public IP Address
-  shell: dig -4 TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'\"' '{ print $2}'
+  shell: curl ifconfig.me
   register: public_ip_lookup
 
 - name: Add Subdomain | Set 'public_ip' variable
