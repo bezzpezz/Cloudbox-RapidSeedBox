@@ -18,7 +18,7 @@
 [![GitHub: Last commit date (develop)](https://img.shields.io/github/last-commit/Cloudbox/Cloudbox/develop.svg?style=for-the-badge&colorB=177DC1)](https://github.com/Cloudbox/Cloudbox/commits/develop)
 [![AppVeyor](https://img.shields.io/appveyor/ci/Cloudbox/Cloudbox/develop.svg?style=for-the-badge&colorB=177DC1&label=appveyor)](https://ci.appveyor.com/project/Cloudbox/Cloudbox)
 
-Cloudbox is an Ansible-based solution for rapidly deploying a Docker containerized cloud media server.
+Cloudbox-RapidSeedBox is an Ansible-based solution for rapidly deploying a Docker containerized cloud media server hosted with RapidSeedBox.
 
 This project was designed for x64 machines running Ubuntu Server 18.04 with limited support for other Debian distributions.
 
